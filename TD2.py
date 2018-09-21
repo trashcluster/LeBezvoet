@@ -13,10 +13,10 @@ paris = 'Messi'
 print(barcelone,' joue à Barcelone,',juventus,' à la Juventus,',liverpool,' à Liverpool et ',paris,' à Paris.')
 
 ajaccio = barcelone
+barcelone = paris
 paris = liverpool
 liverpool = juventus
-juventus = barcelone
-paris = ajaccio
+juventus = ajaccio
 
 print(barcelone,' joue à Barcelone,',juventus,' à la Juventus,',liverpool,' à Liverpool et ',paris,' à Paris.')
 x = input()
