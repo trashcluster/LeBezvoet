@@ -30,7 +30,16 @@ print("U fin =",u,"U max =",int(umax))
 # Jeu de l'oie
 from random import *
 pos=0
+plus=0
 while pos!=66 :
-    des=6*random()+6*random()
-    pos+=def mname(self, arg):
-        pass
+    des=int(6*random()+1)+int'6*random()+1)
+    print("Tu es sur la case",pos,"Avance de ",des," cases !")
+    pos+=des
+    if pos%9 == 0 :
+        if pos == 63 :
+            pos=pos
+        else :
+            pos+=des
+    if pos == 58 :
+        pos = 0
+    if pos > 66 :
