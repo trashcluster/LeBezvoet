@@ -18,13 +18,19 @@ else :
     print(a,"n'est pas un palindrome")
 
 # Roue de la fortune : entre un mot, le cacher, le faire deviner en affichant les espaces, les apostrophes et des underscore à la place des lettres cachés
-mot = input("Joueur 1 : Entre un mot à faire deviner au joueur 2 : ")
-devine = ''
+print("Joueur 1")
+mot = input("Entre un mot à faire deviner au joueur 2 : ")
+devinetemp = []
 for i in range(80) :
     print("**************************************************************")
 for i in range(len(mot)) :
     if mot[i].isalpha() :
-        devine.append('_')
+        devinetemp.append('_')
     else :
-        devine.append(mot[i])
-print(mot, devine)
+        devinetemp.append(mot[i])
+devine = ''.join(devinetemp)
+print("Joueur 2")
+while '_' in devine :
+    x = input("Entre une lettre ou propose un mot : ")
+    if x in mot :
+        
