@@ -29,3 +29,6 @@ for i in tabl :
     if maxNumA == maxNum :
         maxCount+=1
 print("Maximum :", maxNum,"Nombre d'occurences :", maxCount)
+
+# loto
+tirage=[]
